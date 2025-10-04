@@ -1,0 +1,66 @@
+coin,category,tier,max_drawdown,recovery_days
+AAVE,DeFi Protocols,Major,-0.9217134617699234,
+ADA,Blue Chip L1s,Blue Chip,-0.9798905964925005,351.0
+AERO,AI & Tech,Speculative,-0.8588592122254783,
+AGIX,AI & Tech,Speculative,-0.9896307991756804,1451.0
+AIOZ,AI & Tech,Speculative,-0.9949689505777833,
+AKT,AI & Tech,Speculative,-0.9751342393745378,
+ALGO,Next-Gen L1s,Speculative,-0.9721134003771388,
+APT,Emerging L1s,Speculative,-0.7868505379944654,
+ARB,Layer 2s,Major,-0.8835305647093121,
+ATOM,Emerging L1s,Speculative,-0.9177600834770616,
+AVAX,Emerging L1s,Speculative,-0.934709244531005,
+AXS,Metaverse & Gaming,Major,-0.9872358732143295,
+BNB,Blue Chip L1s,Blue Chip,-0.8338919411839668,11.0
+BONK,Meme & Community,Speculative,-0.947787610619469,37.0
+BRETT,Meme & Community,Speculative,-0.8850607293479062,
+BTC,Blue Chip L1s,Blue Chip,-0.8473121646192736,721.0
+CRV,DeFi Protocols,Major,-0.9863498163306661,
+DAI,Stablecoins,Major,-0.0864626767537473,
+DOGE,Meme & Community,Major,-0.9539146067892429,746.0
+DOT,Emerging L1s,Speculative,-0.9417154830250438,
+DUSD,Infrastructure,Speculative,-0.006049293497028209,
+ENJ,Metaverse & Gaming,Major,-0.9868603473004096,
+ETH,Blue Chip L1s,Blue Chip,-0.9421439618111142,781.0
+FET,AI & Tech,Speculative,-0.977550330440525,357.0
+FLOKI,Meme & Community,Speculative,-0.9888421052631579,54.0
+FRAX,Stablecoins,Major,-0.006264406337451814,24.0
+GALA,Metaverse & Gaming,Speculative,-0.9825807686337712,
+GMX,DeFi Protocols,Major,-0.8823323639103835,
+HBAR,Next-Gen L1s,Speculative,-0.9282306811222731,
+ILV,Metaverse & Gaming,Major,-0.9947764949950372,
+INJ,Infrastructure,Major,-0.9475234757624655,517.0
+JUP,DeFi Protocols,Speculative,-0.8102982629583867,
+KAS,Next-Gen L1s,Speculative,-0.7170209941313659,
+LDO,DeFi Protocols,Major,-0.9297673534722621,
+LINK,Infrastructure,Major,-0.9013527832727027,
+MANA,Metaverse & Gaming,Major,-0.9603853432102695,
+MATIC,Layer 2s,Major,-0.9420415610950771,
+MNT,Layer 2s,Major,-0.6281652250742416,
+NEAR,Emerging L1s,Speculative,-0.9512412836558809,
+OCEAN,Infrastructure,Speculative,-0.9343499104326453,
+OP,Layer 2s,Major,-0.8964431029770634,
+PAXG,Payments & RWA,Major,-0.22841822571925802,526.0
+PEPE,Meme & Community,Major,-0.8354838709677419,162.0
+PYUSD,Payments & RWA,Major,-0.019825639551179122,
+QNT,Infrastructure,Major,-0.8882909913824067,
+RENDER,AI & Tech,Speculative,-0.9584166065651665,620.0
+SAND,Metaverse & Gaming,Major,-0.9697434150679946,
+SEI,Infrastructure,Speculative,-0.8648348214732018,
+SHIB,Meme & Community,Major,-0.941358024691358,51.0
+SKI,Meme & Community,Speculative,-0.9866438954730502,57.0
+SOL,Blue Chip L1s,Blue Chip,-0.9629771193758434,751.0
+STRK,Layer 2s,Major,-0.9611399140639275,
+STX,Layer 2s,Major,-0.9306211369352775,426.0
+SUI,Next-Gen L1s,Speculative,-0.7432098398294702,68.0
+TIA,Next-Gen L1s,Speculative,-0.9331102165739753,
+TRX,Emerging L1s,Speculative,-0.9631632603360578,1727.0
+TUSD,Stablecoins,Major,-0.12132660182906459,
+UNI,DeFi Protocols,Major,-0.9159238707078541,
+USDC,Stablecoins,Major,-0.07464205765036852,
+USDT,Stablecoins,Major,-0.5269047068156277,1238.0
+WIF,Meme & Community,Major,-0.9304580342972122,
+XAUT,Payments & RWA,Major,-0.19036142524470784,161.0
+XLM,Payments & RWA,Major,-0.9628637036969355,
+XRP,Payments & RWA,Major,-0.9594433936059086,1953.0
+ZK,Layer 2s,Major,-0.8523643608909791,
