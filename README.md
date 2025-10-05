@@ -28,9 +28,9 @@ This project followed a structured, reproducible data science workflow:
    - Created derived metrics such as ROI, volatility, drawdown, and recovery days.
 
 2. **Data Storage & ETL (PostgreSQL)**  
-   - Loaded cleaned CSVs into a **PostgreSQL database** using `pgAdmin 4`.  
    - Created structured tables for `coin_summary` and `coin_resilience`.  
-   - Joined tables and designed SQL **views** (`vw_coin_metrics`, `vw_category_performance`, `vw_tier_profile`) for aggregated analysis.
+   - Designed SQL **views** (`vw_coin_metrics`, `vw_category_performance`, `vw_tier_profile`) to aggregate data by narrative and tier, then validated schema relationships in pgAdmin before exporting to SAS and Tableau.
+
 
 3. **Statistical Modeling (Python & SAS)**  
    - Conducted **ANOVA**, **OLS regression**, and **correlation analysis** using Python (`statsmodels`) and SAS (`PROC CORR`, `PROC MEANS`).
@@ -39,6 +39,10 @@ This project followed a structured, reproducible data science workflow:
 4. **Visualization (Tableau)**  
    - Built a **dashboard** integrating multi-year ROI, volatility, and drawdown metrics.  
    - Highlighted outlier narratives and visualized performance clusters.
+
+
+Created structured tables for `coin_summary` and `coin_resilience`.  
+Designed SQL **views** (`vw_coin_metrics`, `vw_category_performance`, `vw_tier_profile`) to aggregate data by narrative and tier, then validated schema relationships in pgAdmin before exporting to SAS and Tableau.
 
 ---
 
@@ -52,10 +56,9 @@ This project followed a structured, reproducible data science workflow:
 | **Tableau** | Interactive dashboards for business storytelling | KPI charts, risk–reward maps, category ROI comparison |
 
 ---
+## 📊 Results & Visuals
 
-## 📊  Results & Visuals
-
-Below are the final cross-platform visuals generated using **Python (JupyterLab)**, **SAS Studio**, and **Tableau**.  
+Below are the final cross-platform visuals generated using **Python (JupyterLab)**, **PostgreSQL (SQL)**, **SAS Studio**, and **Tableau**.  
 Together, they illustrate ROI performance, volatility, and recovery trends across 65 cryptocurrencies grouped by narrative and tier.
 
 ---
@@ -63,15 +66,16 @@ Together, they illustrate ROI performance, volatility, and recovery trends acros
 ### 🐍 Python (JupyterLab)
 
 | Visualization | Description |
-|---------------|--------------|
+|---------------|-------------|
 | ![ROI by Category](Crypto%20Narrative%20Analysis/Analysis/python_outputs/plots/plot_roi_by_category.png) | **Category-level ROI distribution** — compares median ROI across narratives such as AI, DeFi, Layer 1, and Meme tokens. |
 | ![ROI vs Volatility](Crypto%20Narrative%20Analysis/Analysis/python_outputs/plots/plot_roi_vs_vol.png) | **ROI vs Volatility scatterplot** — analyzes the risk–reward relationship between volatility and returns. |
 | ![Volatility by Tier](Crypto%20Narrative%20Analysis/Analysis/python_outputs/plots/plot_vol_by_tier.png) | **Tier comparison boxplot** — contrasts volatility levels among Blue-Chip, Major, and Speculative coins. |
 
 ---
 
+### 🗄️ SQL (PostgreSQL Exports & Visual Validation)
 
-### 🗄️ SQL (PostgreSQL Views & Exports)
+#### 📂 **Data Exports**
 
 | Export | Description |
 |---------|-------------|
@@ -81,6 +85,19 @@ Together, they illustrate ROI performance, volatility, and recovery trends acros
 
 🧩 *These SQL views form the structured backbone of the project’s analytics pipeline, enabling consistent cross-tool outputs across Python, SAS, and Tableau.*
 
+---
+
+#### 🧠 **SQL Validation & Visual Outputs**
+
+| Visualization | Description |
+|----------------|-------------|
+| ![SQL Category Performance View](Crypto%20Narrative%20Analysis/Visuals/SQL/vw_category_performance.png) | **vw_category_performance** — narrative-level aggregation summarizing ROI, volatility, drawdown, and recovery. |
+| ![SQL Tier Profile Output](Crypto%20Narrative%20Analysis/Visuals/SQL/sql_tier_profile_output.png) | **vw_tier_profile** — tier-level performance view comparing speculative, blue-chip, and major coins. |
+| ![SQL Schema Diagram](Crypto%20Narrative%20Analysis/Visuals/SQL/sql_schema_diagram.png) | **SQL Schema** — illustrates relationships between core tables and SQL views (`coin_summary`, `coin_resilience`, etc.). |
+
+🧩 *These visuals reinforce the SQL layer’s role as the backbone of the analytics pipeline — connecting Python data cleaning with SAS validation and Tableau visualization.*
+
+---
 
 ### 📘 SAS Studio
 
@@ -89,7 +106,8 @@ Together, they illustrate ROI performance, volatility, and recovery trends acros
 | ![ROI by Category (SAS)](Crypto%20Narrative%20Analysis/Visuals/SAS/sas_viz_roi_by_category.png) | **PROC SGPLOT VBOX output** — validates category-level ROI variance and aligns with Python results. |
 | ![ROI vs Volatility (SAS)](Crypto%20Narrative%20Analysis/Visuals/SAS/sas_viz_roi_vs_vol.png) | **PROC SGPLOT Scatterplot** — highlights ROI–volatility patterns by tier to confirm cross-tool consistency. |
 
----
+
+
 
 ### 📈 Tableau Dashboards
 
@@ -125,7 +143,7 @@ This capstone project delivers a **complete end-to-end analytics lifecycle** —
 |------|---------------|
 | **Python (JupyterLab)** | ANOVA, OLS regression, and export automation — examined ROI, volatility, and tier-based performance. |
 | **SAS Studio** | Statistical validation using `PROC CORR` and `PROC MEANS`, reinforcing Python findings. |
-| **PostgreSQL (pgAdmin)** | Schema and view creation (`vw_coin_metrics`, `vw_category_performance`, `vw_tier_profile`) ensuring data integrity and reproducibility. |
+| **PostgreSQL (pgAdmin)** | ETL process, data normalization, aggregated views, and schema validation | SQL schema design, joins, GROUP BY, `vw_category_performance`, `vw_tier_profile`, and data export integrity 
 | **Tableau** | Built interactive dashboards visualizing narrative ROI, volatility, and recovery patterns for decision-making. |
 
 ---
@@ -179,43 +197,49 @@ Future enhancements can deepen both analytical precision and automation efficien
 Crypto Narrative Analysis/
 │
 ├── Data/
-│   ├── processed/                # Clean CSVs used across tools (coin_summary.csv, coin_resilience.csv)
-│   └── tableau/                  # Subsets formatted for Tableau dashboards
+│ ├── processed/ # Clean CSVs used across tools (coin_summary.csv, coin_resilience.csv)
+│ └── tableau/ # Subsets formatted for Tableau dashboards
 │
 ├── Analysis/
-│   ├── python_outputs/
-│   │   ├── plots/                # Python-generated plots
-│   │   ├── py_category_performance.csv
-│   │   ├── py_coin_metrics.csv
-│   │   ├── py_coin_summary.csv
-│   │   └── py_tier_profile.csv
-│   │
-│   ├── sql_exports/
-│   │   ├── category_performance.csv
-│   │   ├── coin_metrics.csv
-│   │   └── tier_profile.csv
-│   │
-│   └── sas_outputs/
-│       ├── sas_category_summary.csv
-│       └── sas_summary_tier.csv
+│ ├── python_outputs/
+│ │ ├── plots/ # Python-generated plots (ROI, Volatility, Tier Analysis)
+│ │ ├── py_category_performance.csv
+│ │ ├── py_coin_metrics.csv
+│ │ ├── py_coin_summary.csv
+│ │ └── py_tier_profile.csv
+│ │
+│ ├── sql_exports/
+│ │ ├── category_performance.csv
+│ │ ├── coin_metrics.csv
+│ │ └── tier_profile.csv
+│ │
+│ └── sas_outputs/
+│ ├── sas_category_summary.csv
+│ └── sas_summary_tier.csv
 │
 ├── Scripts/
-│   ├── python_crypto_capstone_final.ipynb   # Python notebook (ROI, Volatility, ANOVA, Regression)
-│   ├── crypto_schema_views.sql              # SQL schema, joins, and views
-│   └── sas_analysis.sas                     # SAS statistical analysis + plots
+│ ├── python_crypto_capstone_final.ipynb # Python notebook (ROI, Volatility, ANOVA, Regression)
+│ ├── crypto_schema_views.sql # SQL schema, joins, and views
+│ └── sas_analysis.sas # SAS statistical analysis + plots
 │
 ├── Visuals/
-│   ├── SAS/
-│   │   ├── sas_viz_roi_by_category.png
-│   │   └── sas_viz_roi_vs_vol.png
-│   └── Tableau/
-│       ├── roi_by_narrative.png
-│       ├── risk_vs_volatility.png
-│       ├── resilience_map.png
-│       ├── roi_vs_breakeven.png
-│       └── Crypto_Narratives_Performance.twbx
+│ ├── SQL/
+│ │ ├── sql_schema_diagram.png
+│ │ ├── sql_tier_profile_output.png
+│ │ └── vw_category_performance.png
+│ │
+│ ├── SAS/
+│ │ ├── sas_viz_roi_by_category.png
+│ │ └── sas_viz_roi_vs_vol.png
+│ │
+│ └── Tableau/
+│ ├── roi_by_narrative.png
+│ ├── risk_vs_volatility.png
+│ ├── resilience_map.png
+│ ├── roi_vs_breakeven.png
+│ └── Crypto_Narratives_Performance.twbx
 │
-└── README.md                    # Full documentation (you are here 🎯)
+└── README.md # Full documentation (you are here 🎯)
 ```
 ## 🏁 Final Remarks
 
