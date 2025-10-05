@@ -197,49 +197,50 @@ Future enhancements can deepen both analytical precision and automation efficien
 Crypto Narrative Analysis/
 │
 ├── Data/
-│ ├── processed/ # Clean CSVs used across tools (coin_summary.csv, coin_resilience.csv)
-│ └── tableau/ # Subsets formatted for Tableau dashboards
+│   ├── processed/                # Clean CSVs used across tools (coin_summary.csv, coin_resilience.csv)
+│   └── tableau/                  # Subsets formatted for Tableau dashboards
 │
 ├── Analysis/
-│ ├── python_outputs/
-│ │ ├── plots/ # Python-generated plots (ROI, Volatility, Tier Analysis)
-│ │ ├── py_category_performance.csv
-│ │ ├── py_coin_metrics.csv
-│ │ ├── py_coin_summary.csv
-│ │ └── py_tier_profile.csv
-│ │
-│ ├── sql_exports/
-│ │ ├── category_performance.csv
-│ │ ├── coin_metrics.csv
-│ │ └── tier_profile.csv
-│ │
-│ └── sas_outputs/
-│ ├── sas_category_summary.csv
-│ └── sas_summary_tier.csv
+│   ├── python_outputs/
+│   │   ├── plots/                # Python-generated plots (ROI, Volatility, Tier Analysis)
+│   │   ├── py_category_performance.csv
+│   │   ├── py_coin_metrics.csv
+│   │   ├── py_coin_summary.csv
+│   │   └── py_tier_profile.csv
+│   │
+│   ├── sql_exports/
+│   │   ├── category_performance.csv
+│   │   ├── coin_metrics.csv
+│   │   └── tier_profile.csv
+│   │
+│   └── sas_outputs/
+│       ├── sas_category_summary.csv
+│       └── sas_summary_tier.csv
 │
 ├── Scripts/
-│ ├── python_crypto_capstone_final.ipynb # Python notebook (ROI, Volatility, ANOVA, Regression)
-│ ├── crypto_schema_views.sql # SQL schema, joins, and views
-│ └── sas_analysis.sas # SAS statistical analysis + plots
+│   ├── python_crypto_capstone_final.ipynb   # Python notebook (ROI, Volatility, ANOVA, Regression)
+│   ├── crypto_schema_views.sql              # SQL schema, joins, and views
+│   └── sas_analysis.sas                     # SAS statistical analysis + plots
 │
 ├── Visuals/
-│ ├── SQL/
-│ │ ├── sql_schema_diagram.png
-│ │ ├── sql_tier_profile_output.png
-│ │ └── vw_category_performance.png
-│ │
-│ ├── SAS/
-│ │ ├── sas_viz_roi_by_category.png
-│ │ └── sas_viz_roi_vs_vol.png
-│ │
-│ └── Tableau/
-│ ├── roi_by_narrative.png
-│ ├── risk_vs_volatility.png
-│ ├── resilience_map.png
-│ ├── roi_vs_breakeven.png
-│ └── Crypto_Narratives_Performance.twbx
+│   ├── SQL/
+│   │   ├── sql_schema_diagram.png
+│   │   ├── sql_tier_profile_output.png
+│   │   └── vw_category_performance.png
+│   │
+│   ├── SAS/
+│   │   ├── sas_viz_roi_by_category.png
+│   │   └── sas_viz_roi_vs_vol.png
+│   │
+│   └── Tableau/
+│       ├── roi_by_narrative.png
+│       ├── risk_vs_volatility.png
+│       ├── resilience_map.png
+│       ├── roi_vs_breakeven.png
+│       └── Crypto_Narratives_Performance.twbx
 │
-└── README.md # Full documentation (you are here 🎯)
+└── README.md                              # Full documentation (you are here 🎯)
+
 ```
 ## 🏁 Final Remarks
 
