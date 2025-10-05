@@ -1,6 +1,11 @@
 # 🪙 Crypto Narrative Analysis Capstone  
 *Comparative performance analysis of cryptocurrency narratives using Python, SQL, SAS, and Tableau.*
 
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+![SAS](https://img.shields.io/badge/SAS-1E90FF?style=for-the-badge&logo=sas&logoColor=white)
+![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)
+
 ---
 
 ## 📘 Project Overview  
