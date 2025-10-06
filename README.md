@@ -250,3 +250,10 @@ The project connects quantitative rigor with clear business storytelling, highli
 
 By merging structured data warehousing, statistical validation, and interactive dashboards, this study exemplifies **professional-grade analytics execution** suited for business, research, and fintech applications.
 
+---
+**Student:** Kevin Turner II  
+**Course:** MIS581 – Capstone: Business Intelligence & Data Analytics  
+**Institution:** Colorado State University Global  
+**Date:** October 2025  
+
+
