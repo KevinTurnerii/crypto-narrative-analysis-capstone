@@ -6,6 +6,15 @@
 ![SAS](https://img.shields.io/badge/SAS-1E90FF?style=for-the-badge&logo=sas&logoColor=white)
 ![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)
 
+
+## 📑 Table of Contents
+- [Overview](#-project-overview)
+- [Methodology](#-methodology)
+- [Tools & Technologies](#️-tools--technologies)
+- [Results & Visuals](#-results--visuals)
+- [Key Findings](#-key-findings--insights)
+- [Conclusion](#-conclusion)
+
 ---
 
 ## 📘 Project Overview  
