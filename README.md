@@ -8,13 +8,16 @@
 
 
 ## 📑 Table of Contents
-- [Overview](#-project-overview)
+- [Project Overview](#-project-overview)
+- [Objective](#-objective)
 - [Methodology](#-methodology)
 - [Tools & Technologies](#️-tools--technologies)
 - [Results & Visuals](#-results--visuals)
-- [Key Findings](#-key-findings--insights)
+- [Key Findings & Insights](#-key-findings--insights)
+- [Impact & Interpretation](#-impact--interpretation)
 - [Conclusion](#-conclusion)
-
+- [Future Work & Recommendations](#-future-work--recommendations)
+- [Final Remarks](#-final-remarks)
 ---
 
 ## 📘 Project Overview  
