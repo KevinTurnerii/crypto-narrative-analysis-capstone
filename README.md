@@ -7,6 +7,16 @@
 ![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)
 
 
+## Executive Summary
+
+This capstone evaluates cryptocurrency performance across 10 narratives using a
+multi-platform analytics pipeline (Python → SQL → SAS → Tableau).
+Results show that Blue-Chip Layer-1 and AI narratives deliver the strongest
+risk-adjusted returns, while Meme tokens exhibit extreme volatility with inconsistent
+recovery. Cross-tool validation confirms consistent findings across statistical
+and BI environments.
+
+
 ## 📑 Table of Contents
 - [Project Overview](#-project-overview)
 - [Objective](#-objective)
@@ -66,6 +76,11 @@ Designed SQL **views** (`vw_coin_metrics`, `vw_category_performance`, `vw_tier_p
 | **PostgreSQL (pgAdmin)** | ETL process, data normalization, aggregated views | SQL schema design, joins, GROUP BY analysis |
 | **SAS Studio** | Statistical validation and visualization | PROC IMPORT, PROC CORR, PROC MEANS, SGPlot |
 | **Tableau** | Interactive dashboards for business storytelling | KPI charts, risk–reward maps, category ROI comparison |
+
+
+**Skills Demonstrated:**  
+Python · SQL · SAS · Tableau · Statistical Modeling · ETL · BI Dashboards · Risk Analysis
+
 
 ---
 ## 📊 Results & Visuals
