@@ -6,9 +6,9 @@
 ![SAS](https://img.shields.io/badge/SAS-1E90FF?style=for-the-badge&logo=sas&logoColor=white)
 ![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)
 
-📌 **Status:** Finalized Capstone Project  
-📊 **Scope:** 65 cryptocurrencies | 10 narratives | Multi-year analysis  
-🔁 **Validation:** Cross-platform consistency verified (Python ↔ SQL ↔ SAS ↔ Tableau)
+ **Status:** Finalized Capstone Project  
+ **Scope:** 65 cryptocurrencies | 10 narratives | Multi-year analysis  
+ **Validation:** Cross-platform consistency verified (Python ↔ SQL ↔ SAS ↔ Tableau)
 
 
 ## Executive Summary
@@ -20,7 +20,7 @@ Findings indicate that Blue-Chip Layer-1 and AI & Tech narratives produced the s
 Cross-tool validation (Python statistical modeling, SQL aggregation, SAS verification, Tableau dashboards) confirms consistent narrative-level performance patterns, demonstrating end-to-end data engineering, statistical analysis, and business intelligence capabilities.
 
 
-## 📑 Table of Contents
+##  Table of Contents
 - [Executive Summary](#executive-summary)
 - [Project Overview](#-project-overview)
 - [Objective](#-objective)
@@ -36,7 +36,7 @@ Cross-tool validation (Python statistical modeling, SQL aggregation, SAS verific
 - [Final Remarks](#-final-remarks)
 ---
 
-## 📘 Project Overview  
+##  Project Overview  
 This capstone investigates the comparative performance of **65 cryptocurrencies** grouped across **10 major narratives**, including **Blue Chip Layer-1s, DeFi, AI & Tech, Meme, Stablecoins, Layer-2s, Infrastructure, Payments & RWA, Metaverse & Gaming, and Emerging Layer-1s**.  
 
 The study evaluates each narrative’s **Return on Investment (ROI)**, **volatility**, and **resilience (drawdown and recovery)** over a multi-year period.  
@@ -44,10 +44,10 @@ The project integrates data pipelines, statistical modeling, and visualization d
 
 ---
 
-## 🎯 Objective  
+##  Objective  
 To determine which cryptocurrency narratives yield the **strongest long-term risk-adjusted returns** and **resilience** in down markets while showcasing advanced analytics skills across multiple professional tools.
  
-## 🧠 Methodology  
+##  Methodology  
 This project followed a structured, reproducible data science workflow:
 
 1. **Data Collection & Preparation**  
@@ -69,7 +69,7 @@ This project followed a structured, reproducible data science workflow:
    - Highlighted outlier narratives and visualized performance clusters.
 
 
-## 🏗️ Data Architecture Overview
+##  Data Architecture Overview
 
 The project follows a layered analytics architecture:
 
@@ -106,14 +106,14 @@ Python · SQL · SAS · Tableau · Statistical Modeling · ETL · BI Dashboards 
 
 
 ---
-## 📊 Results & Visuals
+##  Results & Visuals
 
 Below are the final cross-platform visuals generated using **Python (JupyterLab)**, **PostgreSQL (SQL)**, **SAS Studio**, and **Tableau**.  
 Together, they illustrate ROI performance, volatility, and recovery trends across 65 cryptocurrencies grouped by narrative and tier.
 
 ---
 
-### 🐍 Python (JupyterLab)
+###  Python (JupyterLab)
 
 | Visualization | Description |
 |---------------|-------------|
@@ -123,9 +123,9 @@ Together, they illustrate ROI performance, volatility, and recovery trends acros
 
 ---
 
-### 🗄️ SQL (PostgreSQL Exports & Visual Validation)
+###  SQL (PostgreSQL Exports & Visual Validation)
 
-#### 📂 **Data Exports**
+####  **Data Exports**
 
 | Export | Description |
 |---------|-------------|
@@ -133,11 +133,11 @@ Together, they illustrate ROI performance, volatility, and recovery trends acros
 | `category_performance.csv` | Narrative-level summary view used for Tableau integration. |
 | `tier_profile.csv` | Tier-level breakdown used for SAS validation and Python comparisons. |
 
-🧩 *These SQL views form the structured backbone of the project’s analytics pipeline, enabling consistent cross-tool outputs across Python, SAS, and Tableau.*
+ *These SQL views form the structured backbone of the project’s analytics pipeline, enabling consistent cross-tool outputs across Python, SAS, and Tableau.*
 
 ---
 
-#### 🧠 **SQL Validation & Visual Outputs**
+####  **SQL Validation & Visual Outputs**
 
 | Visualization | Description |
 |----------------|-------------|
@@ -145,11 +145,11 @@ Together, they illustrate ROI performance, volatility, and recovery trends acros
 | ![SQL Tier Profile Output](Crypto%20Narrative%20Analysis/Visuals/SQL/sql_tier_profile_output.png) | **vw_tier_profile** — tier-level performance view comparing speculative, blue-chip, and major coins. |
 | ![SQL Schema Diagram](Crypto%20Narrative%20Analysis/Visuals/SQL/sql_schema_diagram.png) | **SQL Schema** — illustrates relationships between core tables and SQL views (`coin_summary`, `coin_resilience`, etc.). |
 
-🧩 *These visuals reinforce the SQL layer’s role as the backbone of the analytics pipeline — connecting Python data cleaning with SAS validation and Tableau visualization.*
+ *These visuals reinforce the SQL layer’s role as the backbone of the analytics pipeline — connecting Python data cleaning with SAS validation and Tableau visualization.*
 
 ---
 
-### 📘 SAS Studio
+###  SAS Studio
 
 | Visualization | Description |
 |----------------|-------------|
@@ -159,7 +159,7 @@ Together, they illustrate ROI performance, volatility, and recovery trends acros
 
 
 
-### 📈 Tableau Dashboards
+###  Tableau Dashboards
 
 | Visualization | Description |
 |----------------|-------------|
@@ -170,15 +170,15 @@ Together, they illustrate ROI performance, volatility, and recovery trends acros
 
 ---
 
-💡 These visuals collectively demonstrate an end-to-end analytics pipeline — validating insights across Python, SAS, and Tableau while linking statistical modeling to interactive business intelligence.
+ These visuals collectively demonstrate an end-to-end analytics pipeline — validating insights across Python, SAS, and Tableau while linking statistical modeling to interactive business intelligence.
 
 ---
 
-## 🧠 Key Findings & Insights
+##  Key Findings & Insights
 
 This capstone project delivers a **complete end-to-end analytics lifecycle** — integrating Python, SQL, SAS, and Tableau — to evaluate cryptocurrency performance across 10 market narratives.
 
-### 🔍 Major Takeaways
+###  Major Takeaways
 
 - Blue-Chip Layer-1 and AI & Tech narratives delivered the most stable long-term ROI.
 - Meme & Emerging Layer-1 tokens exhibited the highest upside but with extreme volatility.
@@ -187,7 +187,7 @@ This capstone project delivers a **complete end-to-end analytics lifecycle** —
 
 ---
 
-### 💡 Analytical Highlights
+###  Analytical Highlights
 
 | Tool | Contribution |
 |------|---------------|
@@ -197,7 +197,7 @@ This capstone project delivers a **complete end-to-end analytics lifecycle** —
 | **Tableau** | Built interactive dashboards visualizing narrative ROI, volatility, and recovery patterns for decision-making. |
 
 ---
-### 🚀 Business & Analytical Impact
+###  Business & Analytical Impact
 
 This project demonstrates the ability to:
 
@@ -219,39 +219,39 @@ Key interpretive takeaways:
 
 ---
 
-### 🧾 Conclusion
+###  Conclusion
 An integrated workflow across **Python → SQL → SAS → Tableau** enabled a multi-lens analysis of crypto market behavior.  
 By pairing statistical rigor with visualization clarity, this project produces a **decision-ready framework** for investors, analysts, and data professionals seeking narrative-level performance intelligence.
 
 
-### 🔮 Future Work & Recommendations
+###  Future Work & Recommendations
 
 This project establishes a foundational multi-platform analytical framework for cryptocurrency performance benchmarking.  
 Future enhancements can deepen both analytical precision and automation efficiency:
 
-#### 🧠 Advanced Predictive Analytics
+####  Advanced Predictive Analytics
 - Integrate **machine learning models** (e.g., Random Forest, XGBoost, or ARIMA) to forecast ROI and volatility trends.  
 - Expand regression models to include **market sentiment, trading volume, and macroeconomic indicators**.
 
-#### 📈 Interactive Dashboards
+####  Interactive Dashboards
 - Upgrade Tableau dashboards with **dynamic parameters** for year-over-year or month-over-month ROI comparisons.  
 - Deploy a **Power BI or Streamlit app** for live performance tracking using API-fed crypto data.
 
-#### 🗄️ Automated Data Pipelines
+####  Automated Data Pipelines
 - Convert CSV imports to **ETL pipelines** using Python scripts or SQL stored procedures.  
 - Schedule updates via **Airflow, cron jobs, or Azure Data Factory** to ensure continuous refresh cycles.
 
-#### 🔍 Comparative Research Expansion
+####  Comparative Research Expansion
 - Include additional narratives (e.g., **Gaming 2.0**, **ZK Proofs**, **RWA tokens**) as new sectors mature.  
 - Evaluate performance resilience under **market shocks**, testing recovery post high-volatility events.
 
-#### 🧾 Reproducibility Enhancements
+####  Reproducibility Enhancements
 - Incorporate a **requirements.txt** or **environment.yml** file for full environment replication.  
 - Add **Docker support** to streamline deployment for academic or enterprise review.
 
 ---
 
-## ⚙️ Reproducibility
+##  Reproducibility
 
 To replicate this project:
 
@@ -288,7 +288,7 @@ All outputs were validated across tools to ensure consistency.
 ---
 
 
-💡 *Together, these extensions would evolve this capstone from a static comparative analysis into a dynamic, continuously learning analytics system — blending finance, data engineering, and AI insights into one unified workflow.*
+ *Together, these extensions would evolve this capstone from a static comparative analysis into a dynamic, continuously learning analytics system — blending finance, data engineering, and AI insights into one unified workflow.*
 ```
 Crypto Narrative Analysis/
 │
@@ -335,10 +335,10 @@ Crypto Narrative Analysis/
 │       ├── roi_vs_breakeven.png
 │       └── Crypto_Narratives_Performance.twbx
 │
-└── README.md                              # Full documentation (you are here 🎯)
+└── README.md                              # Full documentation (you are here)
 
 ```
-## 🏁 Final Remarks
+##  Final Remarks
 
 This capstone demonstrates a **complete, end-to-end analytics workflow** — from data engineering and modeling to visualization and insight delivery — using **Python, SQL, SAS, and Tableau**.
 
