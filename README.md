@@ -251,6 +251,43 @@ Future enhancements can deepen both analytical precision and automation efficien
 
 ---
 
+## ⚙️ Reproducibility
+
+To replicate this project:
+
+1. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+2. Run the Python notebook:
+
+ ```
+python_crypto_capstone_final.ipynb
+ ```
+
+3. Execute SQL schema and views:
+
+ ```
+crypto_schema_views.sql
+ ```
+
+4. Run SAS validation script:
+ ```
+
+sas_analysis.sas
+ ```
+
+5. Open Tableau workbook:
+
+  ```
+ Crypto_Narratives_Performance.twbx
+ ```
+
+All outputs were validated across tools to ensure consistency.
+
+---
+
+
 💡 *Together, these extensions would evolve this capstone from a static comparative analysis into a dynamic, continuously learning analytics system — blending finance, data engineering, and AI insights into one unified workflow.*
 ```
 Crypto Narrative Analysis/
