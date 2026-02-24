@@ -6,27 +6,33 @@
 ![SAS](https://img.shields.io/badge/SAS-1E90FF?style=for-the-badge&logo=sas&logoColor=white)
 ![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)
 
+📌 **Status:** Finalized Capstone Project  
+📊 **Scope:** 65 cryptocurrencies | 10 narratives | Multi-year analysis  
+🔁 **Validation:** Cross-platform consistency verified (Python ↔ SQL ↔ SAS ↔ Tableau)
+
 
 ## Executive Summary
 
-This capstone evaluates cryptocurrency performance across 10 narratives using a
-multi-platform analytics pipeline (Python → SQL → SAS → Tableau).
-Results show that Blue-Chip Layer-1 and AI narratives deliver the strongest
-risk-adjusted returns, while Meme tokens exhibit extreme volatility with inconsistent
-recovery. Cross-tool validation confirms consistent findings across statistical
-and BI environments.
+This capstone analyzes 65 cryptocurrencies across 10 major market narratives using a full-stack analytics pipeline (Python → PostgreSQL → SAS → Tableau).
+
+Findings indicate that Blue-Chip Layer-1 and AI & Tech narratives produced the strongest long-term, risk-adjusted performance, while Meme and Emerging Layer-1 tokens delivered extreme upside with significantly higher volatility and deeper drawdowns.
+
+Cross-tool validation (Python statistical modeling, SQL aggregation, SAS verification, Tableau dashboards) confirms consistent narrative-level performance patterns, demonstrating end-to-end data engineering, statistical analysis, and business intelligence capabilities.
 
 
 ## 📑 Table of Contents
+- [Executive Summary](#executive-summary)
 - [Project Overview](#-project-overview)
 - [Objective](#-objective)
 - [Methodology](#-methodology)
-- [Tools & Technologies](#️-tools--technologies)
+- [Data Architecture Overview](#-data-architecture-overview)
+- [Tools & Technologies](#-tools--technologies)
 - [Results & Visuals](#-results--visuals)
 - [Key Findings & Insights](#-key-findings--insights)
-- [Impact & Interpretation](#-impact--interpretation)
+- [Business & Analytical Impact](#-business--analytical-impact)
 - [Conclusion](#-conclusion)
 - [Future Work & Recommendations](#-future-work--recommendations)
+- [Repository Structure](#-repository-structure)
 - [Final Remarks](#-final-remarks)
 ---
 
@@ -63,8 +69,25 @@ This project followed a structured, reproducible data science workflow:
    - Highlighted outlier narratives and visualized performance clusters.
 
 
-Created structured tables for `coin_summary` and `coin_resilience`.  
-Designed SQL **views** (`vw_coin_metrics`, `vw_category_performance`, `vw_tier_profile`) to aggregate data by narrative and tier, then validated schema relationships in pgAdmin before exporting to SAS and Tableau.
+## 🏗️ Data Architecture Overview
+
+The project follows a layered analytics architecture:
+
+1. Python Layer  
+   - Data ingestion and cleaning  
+   - Feature engineering (ROI, volatility, drawdown, recovery days)
+
+2. PostgreSQL Layer  
+   - Normalized schema (`coin_summary`, `coin_resilience`)  
+   - Aggregated analytical views (`vw_category_performance`, `vw_tier_profile`)
+
+3. SAS Validation Layer  
+   - Statistical confirmation (correlation, variance analysis)
+
+4. Tableau BI Layer  
+   - Interactive dashboards for narrative-level storytelling
+
+This layered design ensures analytical reproducibility and cross-tool validation.
 
 ---
 
@@ -156,11 +179,11 @@ Together, they illustrate ROI performance, volatility, and recovery trends acros
 This capstone project delivers a **complete end-to-end analytics lifecycle** — integrating Python, SQL, SAS, and Tableau — to evaluate cryptocurrency performance across 10 market narratives.
 
 ### 🔍 Major Takeaways
-- **AI & Tech** and **Blue-Chip Layer 1s** delivered the strongest **long-term ROI** and **resilience**, aligning with their institutional adoption and innovation drivers.  
-- **Meme & Community tokens** achieved the **highest short-term gains**, but also showed extreme volatility and inconsistent recovery.  
-- **DeFi protocols** exhibited unstable returns tied to liquidity cycles and regulation shocks.  
-- **Recovery analysis (SAS + SQL)** showed that coins with **moderate volatility** recovered faster from drawdowns than either ultra-risky or ultra-stable assets.  
-- **Regression analysis (Python)** revealed that **volatility alone** doesn’t explain ROI — but combining **drawdown** and **recovery days** improves predictive strength.
+
+- Blue-Chip Layer-1 and AI & Tech narratives delivered the most stable long-term ROI.
+- Meme & Emerging Layer-1 tokens exhibited the highest upside but with extreme volatility.
+- Stablecoins showed minimal ROI and shallow drawdowns, acting as capital preservation assets.
+- Volatility alone does not explain returns — drawdown depth and recovery speed significantly improve predictive insight.
 
 ---
 
@@ -174,10 +197,19 @@ This capstone project delivers a **complete end-to-end analytics lifecycle** —
 | **Tableau** | Built interactive dashboards visualizing narrative ROI, volatility, and recovery patterns for decision-making. |
 
 ---
+### 🚀 Business & Analytical Impact
 
-### 🚀 Impact & Interpretation
-This study introduces a **framework for narrative-based crypto analytics** that blends descriptive, diagnostic, and predictive insights.  
-It demonstrates applied expertise in **data pipelines**, **statistical modeling**, and **visual storytelling** — skills directly transferable to professional data analytics and BI roles.  
+This project demonstrates the ability to:
+
+- Engineer structured datasets from unstructured market data
+- Design normalized SQL schemas and analytical views
+- Perform statistical hypothesis testing and regression modeling
+- Validate cross-platform analytical consistency
+- Translate quantitative outputs into decision-ready dashboards
+
+The framework can be applied to portfolio risk assessment, sector benchmarking, fintech analytics, and financial performance modeling.
+
+This positions the work beyond academic exploration — into practical, enterprise-grade analytics execution.
 
 Key interpretive takeaways:
 - **Layer-1 assets** (BTC, ETH, SOL) maintain **strong ROI with lower volatility**, validating their “digital blue-chip” status.  
