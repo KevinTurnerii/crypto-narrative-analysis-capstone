@@ -23,8 +23,7 @@ Core performance dimensions include:
 
 Results show that Blue-Chip Layer-1 and AI & Tech narratives delivered the most consistent risk-adjusted returns, while Meme and Emerging Layer-1 sectors exhibited higher upside accompanied by materially elevated volatility and deeper drawdowns.
 
-Cross-platform validation (Python statistical modeling, SQL aggregation, SAS confirmation, Tableau visualization) ensures reproducibility and metric consistency across analytic environments.
-
+Cross-platform validation across statistical modeling, relational aggregation, and business intelligence layers ensures reproducibility and metric consistency throughout the analytical workflow.
 
 ## Table of Contents
 - [Executive Summary](#executive-summary)
@@ -110,10 +109,13 @@ Python · SQL · SAS · Tableau · Statistical Modeling · ETL · BI Dashboards 
 
 
 ---
-##  Results & Visuals
 
-Below are the final cross-platform visuals generated using **Python (JupyterLab)**, **PostgreSQL (SQL)**, **SAS Studio**, and **Tableau**.  
-Together, they illustrate ROI performance, volatility, and recovery trends across 65 cryptocurrencies grouped by narrative and tier.
+---
+## Results & Visuals
+
+Below are the final validated outputs from the layered analytics pipeline.
+
+These visuals illustrate ROI performance, volatility behavior, drawdown depth, and recovery duration across 65 cryptocurrencies grouped by narrative and tier.
 
 ---
 
