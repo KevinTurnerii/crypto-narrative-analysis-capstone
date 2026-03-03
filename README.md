@@ -12,18 +12,19 @@ Risk-Adjusted Return Modeling • Cross-Platform Data Engineering
 
 ## Executive Summary
 
-This project analyzes 65 cryptocurrencies across 10 major market narratives using a multi-layer analytics pipeline (Python → PostgreSQL → SAS → Tableau).
+This project evaluates narrative-level cryptocurrency performance across 65 assets and 10 market themes using risk-adjusted return modeling.
 
-The framework evaluates narrative-level performance using:
+Core performance dimensions include:
 
-- Return on Investment (ROI)
-- Volatility
-- Maximum Drawdown
-- Recovery Duration
+- Return on Investment (ROI)  
+- Volatility  
+- Maximum Drawdown  
+- Recovery Duration  
 
-Results indicate that Blue-Chip Layer-1 and AI & Tech narratives generated the strongest long-term risk-adjusted performance, while Meme and Emerging Layer-1 sectors produced higher upside with significantly elevated volatility and deeper drawdowns.
+Results show that Blue-Chip Layer-1 and AI & Tech narratives delivered the most consistent risk-adjusted returns, while Meme and Emerging Layer-1 sectors exhibited higher upside accompanied by materially elevated volatility and deeper drawdowns.
 
-Cross-platform validation (Python statistical modeling, SQL aggregation, SAS verification, Tableau visualization) confirms consistent performance patterns and demonstrates full-stack financial analytics capability.
+Cross-platform validation (Python statistical modeling, SQL aggregation, SAS confirmation, Tableau visualization) ensures reproducibility and metric consistency across analytic environments.
+
 
 ## Table of Contents
 - [Executive Summary](#executive-summary)
@@ -41,10 +42,12 @@ Cross-platform validation (Python statistical modeling, SQL aggregation, SAS ver
 ---
 
 ## Project Overview  
-This project investigates the comparative performance of **65 cryptocurrencies** grouped across **10 major narratives**, including **Blue Chip Layer-1s, DeFi, AI & Tech, Meme, Stablecoins, Layer-2s, Infrastructure, Payments & RWA, Metaverse & Gaming, and Emerging Layer-1s**.  
 
-The study evaluates each narrative’s **Return on Investment (ROI)**, **volatility**, and **resilience (drawdown and recovery)** over a multi-year period.  
-The project integrates data pipelines, statistical modeling, and visualization dashboards across four analytic environments — **Python, SQL, SAS, and Tableau** — to demonstrate full-stack data analytics capability.
+This project investigates the comparative performance of 65 cryptocurrencies grouped across 10 major market narratives, including Blue-Chip Layer-1s, DeFi, AI & Tech, Meme, Stablecoins, Layer-2s, Infrastructure, Payments & RWA, Metaverse & Gaming, and Emerging Layer-1s.
+
+The study evaluates each narrative’s Return on Investment (ROI), volatility, and resilience (maximum drawdown and recovery duration) over a multi-year period.
+
+The analysis is implemented within a structured, reproducible analytics architecture integrating Python for feature engineering, PostgreSQL for relational modeling and aggregation, SAS for statistical validation, and Tableau for executive visualization.
 
 ---
  
@@ -198,7 +201,10 @@ The architecture can be adapted to portfolio benchmarking, sector risk analysis,
 ---
 
 ###  Conclusion
-An integrated Python → SQL → SAS → Tableau workflow enabled multi-dimensional analysis of cryptocurrency narrative performance.
+
+This project demonstrates the ability to engineer structured financial datasets, design relational SQL schemas and analytical views, apply statistical modeling, and deliver executive-level risk analysis dashboards within a reproducible cross-platform framework.
+
+The architecture supports scalable financial analytics use cases including portfolio benchmarking, sector risk comparison, and narrative-based performance evaluation.
 
 ---
 
